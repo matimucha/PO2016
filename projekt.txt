@@ -8,7 +8,7 @@ TN-8
 3.
 
 TP-8
-1.
+1.Mateusz Muszak, 195999 C++
 2.
 3.
 

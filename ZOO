@@ -1,0 +1,55 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class ZOO
+{
+    public:
+        char* nazwa;
+        int masa;
+        char* glos;
+};
+
+class Zwierze : public ZOO
+{
+    void inicjalizacja()
+        {
+            nazwa = NULL;
+            masa = 0;
+            glos = NULL;
+        }
+
+    void Koza(char* nazwa, int masa, char* glos)
+    {
+        if(this->nazwa != NULL)
+            free(this->nazwa);
+        this->nazwa = strdup(nazwa);
+        this->masa = masa;
+        this->glos = strdup(glos);
+    }
+
+    void wyswietl()
+        {
+            cout<<"Nazwa zwierzaka:"<<nazwa<<endl;
+            cout<<"Masa:"<<masa<<endl;
+            cout<<"Glos:"<<glos<<endl;
+        }
+    void usun()
+        {
+            cout<<"Zwolniono pamiec zwierzaka "<<nazwa<<endl;
+            if(nazwa != NULL)
+                free(nazwa);
+                free(glos);
+        }
+};
+
+
+int main()
+{
+    /*Zwierze z;
+    z.inicjalizacja();
+    z.Koza("Koza", 70,"beee");
+    z.wyswietl();
+    z.usun();*/
+    return 0;
+}

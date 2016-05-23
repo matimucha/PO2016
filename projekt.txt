@@ -24,7 +24,7 @@ kkkkkkkkkkkkkkkkkkkkkkkkkkkk
 
 TP-8
 1.Katarzyna Julia Kulas ,214893 ,C++, github: kaktusik13, Projekt B
-2.Mateusz Muszak, 195999, git: matimucha, C++
+2.Mateusz Muszak, 195999, git: matimucha, C++, sterownik budynku inteligentnego
 3. Piotr Rabiej, 200231, RabiejPiotr, C++
 4. Maciej Kostrzewa, 211393, termit802, C++
 5. Grzegorz Banach, 212518, gbanang, C++
